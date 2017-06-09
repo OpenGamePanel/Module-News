@@ -38,6 +38,14 @@ class SiteManager
 	
 	function LoadSettings()
 	{
+		if (!file_exists('modules/news/data/listings.xml'))
+		{
+			copy('modules/news/data/listings.xml.orig', 'modules/news/data/listings.xml');
+		}
+		if (!file_exists('modules/news/config.php'))
+		{
+			copy('modules/news/config.php.orig', 'modules/news/config.php');
+		}
 		if(file_exists("modules/news/config.php"))
 		{
 			$this->settings = parse_ini_file("modules/news/config.php",true);
