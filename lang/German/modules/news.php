@@ -24,7 +24,7 @@
 
 define('manage_listings', "Manage your news");
 define('add_new_listing', "Post News");
-define('your_current_listings', "Your current news");
+define('your_current_listings', "Ihre aktuellen Nachrichten");
 define('edit', "Bearbeiten");
 define('date', "Datum");
 define('images', "Bilder");
