@@ -31,7 +31,7 @@ define('images', "Képek");
 define('title', "Cím");
 define('description', "Hírek tartalma");
 define('written_by', "Írta");
-define('details', "Tovább olvasás");
+define('details', "Olvass tovább");
 define('modify', "Módosít");
 define('save', "Mentés");
 define('delete', "Törlés");
