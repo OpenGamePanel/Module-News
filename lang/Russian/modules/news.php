@@ -54,7 +54,7 @@ define('date_format', "Формат Даты");
 define('results_per_page', "Новостей на страницу");
 define('enable_search', "Включить Поиск");
 define('image_quality', "Качество картинки (0-100)");
-define('max_image_width', "Максимальная ширина изображения (px)");
+define('max_image_width', "Мак. ширина изображения (px)");
 define('gallery_theme', "Вид Галереи для Картинок");
 define('images_bottom', "Расположение картинок в Новости");
 define('img_bottom', "Под статьей");

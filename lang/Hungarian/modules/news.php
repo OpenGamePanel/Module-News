@@ -73,7 +73,7 @@ define('GD_fail', "GD extension is NOT loaded on your server. Images upload disa
 define('search_news', "Keresés a hírekben");
 define('help', "segítség");
 define('help_date', "Get help regarding different formating of the date");
-define('ID_invalid', "The News ID does not exist");
+define('ID_invalid', "A hírek ID nem létezik.");
 define('ID_not_set', "The News ID isn't set");
 define('unauthorized_access', "Jogosulatlan hozzáférés");
 define('WYSIWYG', "WYSIWYG szerkesztő");
