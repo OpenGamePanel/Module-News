@@ -55,7 +55,7 @@ define('results_per_page', "Hírek oldalanként");
 define('enable_search', "Engedélyezze a keresőmotort");
 define('image_quality', "Képminőség (0-100)");
 define('max_image_width', "Maximális képszélesség (px)");
-define('gallery_theme', "hián");
+define('gallery_theme', "Képgaléria  bőr");
 define('images_bottom', "A képgaléria helyzete");
 define('img_bottom', "A cikk alatt");
 define('img_right', "A cikk jobb oldalán");
