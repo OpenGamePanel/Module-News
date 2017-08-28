@@ -52,7 +52,7 @@ define('no_results', "Es wurde keine Nachricht gefunden.");
 define('config_options', "Nachrichtenoptionen");
 define('date_format', "Datumsformat");
 define('results_per_page', "Nachrichten pro Seite");
-define('enable_search', "Suchmaschine aktivieren");
+define('enable_search', "Enable search engine");
 define('image_quality', "Bildqualität (0-100)");
 define('max_image_width', "Maximale Bildbreite (px)");
 define('gallery_theme', "Image gallery skin");

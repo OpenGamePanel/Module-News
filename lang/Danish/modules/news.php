@@ -52,7 +52,7 @@ define('no_results', "No news was found.");
 define('config_options', "News Options");
 define('date_format', "Date Format");
 define('results_per_page', "News per Page");
-define('enable_search', "Enable Search engine");
+define('enable_search', "Enable search engine");
 define('image_quality', "Image quality (0-100)");
 define('max_image_width', "Maximum image width (px)");
 define('gallery_theme', "Image gallery skin");

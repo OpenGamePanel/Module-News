@@ -52,7 +52,7 @@ define('no_results', "Nie znaleziono żadnych wiadomości.");
 define('config_options', "Opcje newsów");
 define('date_format', "Format Daty");
 define('results_per_page', "Wiadomości na Stronę");
-define('enable_search', "Włącz wyszukiwarkę");
+define('enable_search', "Enable search engine");
 define('image_quality', "Jakość obrazka (0-100)");
 define('max_image_width', "Maksymalna szerokość obrazka (px)");
 define('gallery_theme', "Wygląd galerii zdjęć");

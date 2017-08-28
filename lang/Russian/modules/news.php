@@ -52,7 +52,7 @@ define('no_results', "Новостей не найдено");
 define('config_options', "Настройки");
 define('date_format', "Формат Даты");
 define('results_per_page', "Новостей на страницу");
-define('enable_search', "Включить Поиск");
+define('enable_search', "Enable search engine");
 define('image_quality', "Качество картинки (0-100)");
 define('max_image_width', "Мак. ширина изображения (px)");
 define('gallery_theme', "Вид Галереи для Картинок");

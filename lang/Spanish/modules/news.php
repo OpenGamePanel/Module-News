@@ -52,7 +52,7 @@ define('no_results', "No se encontraron artículos.");
 define('config_options', "Opciones");
 define('date_format', "Formato de Fecha");
 define('results_per_page', "Artículos por página");
-define('enable_search', "Activar motor de Búsqueda");
+define('enable_search', "Enable search engine");
 define('image_quality', "Calidad de Imagen (0-100)");
 define('max_image_width', "Ancho máximo por imágen (px)");
 define('gallery_theme', "Image gallery skin");
