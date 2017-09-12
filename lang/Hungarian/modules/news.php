@@ -63,7 +63,7 @@ define('no_word', "Nem");
 define('yes_word', "Igen");
 define('no_access', "You do not have the right to access this page. Your action will be logged for further inspection.");
 define('write_permission_required', "Írási engedély szükséges");
-define('fix_permission', "Please fix permissions. The module will not work as intended until you fix all permissions.");
+define('fix_permission', "Kérlek javítsd ki a jogosultságokat. A modul mindaddig nem fog működni, amíg ki nem javítod az összes jogosultságot.");
 define('check_permissions', "Engedélyek ellenőrzése");
 define('OK_permission', "A szükséges engedélyek rendben!");
 define('empty_title', "Kérlek, töltsd ki a címet");
