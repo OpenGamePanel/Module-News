@@ -22,16 +22,16 @@
  *
  */
 
-define('manage_listings', "Manage your news");
-define('add_new_listing', "Post News");
-define('your_current_listings', "Your current news");
-define('edit', "Edit");
-define('date', "Date");
-define('images', "Images");
-define('title', "Title");
-define('description', "News Content");
+define('manage_listings', "إدارة الأخبار الخاصة بك");
+define('add_new_listing', "آخر الأخبار");
+define('your_current_listings', "الأخبار الحالية");
+define('edit', "تعديل");
+define('date', "تاريخ");
+define('images', "صور");
+define('title', "عنوان");
+define('description', "أخبار المحتوى");
 define('written_by', "Written by");
-define('details', "Read More");
+define('details', "اقرأ المزيد");
 define('modify', "Modify");
 define('save', "Save");
 define('delete', "Delete");
@@ -52,7 +52,7 @@ define('no_results', "No news was found.");
 define('config_options', "News Options");
 define('date_format', "Date Format");
 define('results_per_page', "News per Page");
-define('enable_search', "Enable Search engine");
+define('enable_search', "Enable search engine");
 define('image_quality', "Image quality (0-100)");
 define('max_image_width', "Maximum image width (px)");
 define('gallery_theme', "Image gallery skin");
