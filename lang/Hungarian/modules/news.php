@@ -72,7 +72,7 @@ define('empty_author', "Kérlek, töltsd ki a készítő nevét");
 define('GD_fail', "A GD kiterjesztés NINCS betöltve a szervereden. A képek feltöltése letiltva.");
 define('search_news', "Keresés a hírekben");
 define('help', "segítség");
-define('help_date', "Get help regarding different formating of the date");
+define('help_date', "Kérj segítséget a dátum különböző formázásához");
 define('ID_invalid', "A hírek ID nem létezik.");
 define('ID_not_set', "A hírek IDje nincs beállítva.");
 define('unauthorized_access', "Jogosulatlan hozzáférés");
