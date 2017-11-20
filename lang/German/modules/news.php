@@ -22,8 +22,8 @@
  *
  */
 
-define('manage_listings', "Manage your news");
-define('add_new_listing', "Post News");
+define('manage_listings', "Verwalte deine Nachrichten");
+define('add_new_listing', "Nachricht veröffentlichen");
 define('your_current_listings', "Ihre aktuellen Nachrichten");
 define('edit', "Bearbeiten");
 define('date', "Datum");
