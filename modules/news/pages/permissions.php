@@ -69,7 +69,7 @@ else{ ?>
 	if ( $failed ) {
 		echo "<br /><br /><h3>".get_lang('fix_permission')."</h3><p><a href='?m=news&p=admin_news&page=permissions'>".get_lang('refresh')."</a></p>";
 	} else {
-		echo "<br /><br /><h3>".get_lang('OK_permission')."</h3>";
+		echo "<br /><br /><h3>".get_lang('permission_ok')."</h3>";
 	}
 
 }

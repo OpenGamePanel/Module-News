@@ -163,7 +163,7 @@ $this->ms_i($id);
 						<button type="submit" class="news-btn news-btn-default pull-left"><?php echo get_lang('submit');?></button>
 						<?php
 						}else{
-							echo "<h3><span class='failure'>".get_lang('GD_fail')."</span></h3>";
+							echo "<h3><span class='failure'>".get_lang('gd_fail')."</span></h3>";
 							}
 						?></div>
 						

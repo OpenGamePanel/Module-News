@@ -214,7 +214,7 @@ else{
 							<!--end images upload-->
 							<?php
 							}else{
-								echo "<h3><span class='failure'>".get_lang('GD_fail')."</span></h3>";
+								echo "<h3><span class='failure'>".get_lang('gd_fail')."</span></h3>";
 								}
 							?>
 						</div>
