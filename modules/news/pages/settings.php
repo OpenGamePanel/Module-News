@@ -89,7 +89,7 @@ else {
 									</select>
 								</li>
 								<li>
-									<label><?php echo get_lang('WYSIWYG');?>:</label>
+									<label><?php echo get_lang('wysiwyg');?>:</label>
 									
 									<select name="WYSIWYG">
 										<option value="TinyMCE" <?php if($ini_array["website"]["WYSIWYG"]=="TinyMCE") echo "selected";?>>Tiny MCE</option>
