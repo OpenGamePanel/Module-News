@@ -93,6 +93,6 @@ define('OGP_LANG_tinymce_skin_custom', "You absolutely need to upload your own c
 define('OGP_LANG_safe_HTML', "HTML Purifier");
 define('OGP_LANG_safe_HTML_en', "HTML Purifier enabled");
 define('OGP_LANG_safe_HTML_dis', "HTML Purifier disabled");
-define('OGP_LANG_safe_HTML_en_info', "The HTML content of the article in the detailed view will be purified. This will lead in the removal of some HTML tags like iframes. Edit the file <b>modules/news/config.php</b> to change the setting 'safe_HTML' from value '1' (enabled) to value '0' (disabled) to diabled this bahavior and allow usage of full HTML without restriction.");
+define('OGP_LANG_safe_HTML_en_info', "The HTML content of the article in the detailed view will be purified. This will lead in the removal of some HTML tags like iframes. Edit the file <b>modules/news/config.php</b> to change the setting 'safe_HTML' from value '1' (enabled) to value '0' (disabled) to disable this bahavior and allow usage of full HTML without restriction.");
 define('OGP_LANG_safe_HTML_dis_info', "The HTML content of the article in the detailed view will not be purified. Edit the file <b>modules/news/config.php</b> to change the setting 'safe_HTML' from value '0' (disabled) to value '1' (enabled) to enable safe HTML tags usage only.");
 ?>
