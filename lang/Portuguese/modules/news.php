@@ -22,7 +22,7 @@
  *
  */
 
-define('OGP_LANG_manage_listings', "Gestão das suas novidades");
+define('OGP_LANG_manage_listings', "Gestão de Notícias ");
 define('OGP_LANG_add_new_listing', "Publicar Notícias");
 define('OGP_LANG_your_current_listings', "Suas notícias atuais");
 define('OGP_LANG_edit', "Editar");
@@ -38,7 +38,7 @@ define('OGP_LANG_delete', "Apagar");
 define('OGP_LANG_sure_to_delete', "Tem certeza de que deseja excluir essas notícias?");
 define('OGP_LANG_go_back', "Voltar a trás!");
 define('OGP_LANG_new_added_success', "A notícia foi postada com sucesso!");
-define('OGP_LANG_add_another', "Adicionar outro");
+define('OGP_LANG_add_another', "Adicionar nova noticia");
 define('OGP_LANG_or_message', "ou");
 define('OGP_LANG_please_select', "Por favor selecione");
 define('OGP_LANG_submit', "Submeter");
