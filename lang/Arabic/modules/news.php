@@ -22,27 +22,27 @@
  *
  */
 
-define('OGP_LANG_manage_listings', "Manage your news");
-define('OGP_LANG_add_new_listing', "Post News");
-define('OGP_LANG_your_current_listings', "Your current news");
-define('OGP_LANG_edit', "Edit");
-define('OGP_LANG_date', "Date");
-define('OGP_LANG_images', "Images");
-define('OGP_LANG_title', "Title");
-define('OGP_LANG_description', "News Content");
-define('OGP_LANG_written_by', "Written by");
-define('OGP_LANG_details', "Read More");
-define('OGP_LANG_modify', "Modify");
-define('OGP_LANG_save', "Save");
-define('OGP_LANG_delete', "Delete");
-define('OGP_LANG_sure_to_delete', "Are you sure that you would like to delete these news?");
-define('OGP_LANG_go_back', "Go Back");
-define('OGP_LANG_new_added_success', "The news has been posted successfully!");
-define('OGP_LANG_add_another', "Add another one");
-define('OGP_LANG_or_message', "or");
-define('OGP_LANG_please_select', "Please Select");
+define('OGP_LANG_manage_listings', "إدارة الأخبار الخاصة بك");
+define('OGP_LANG_add_new_listing', "آخر الأخبار");
+define('OGP_LANG_your_current_listings', "الأخبار الحالية");
+define('OGP_LANG_edit', "تعديل");
+define('OGP_LANG_date', "تاريخ");
+define('OGP_LANG_images', "صور");
+define('OGP_LANG_title', "عنوان");
+define('OGP_LANG_description', "أخبار المحتوى");
+define('OGP_LANG_written_by', "كتب بواسطة");
+define('OGP_LANG_details', "اقرأ المزيد");
+define('OGP_LANG_modify', "تعديل");
+define('OGP_LANG_save', "حفظ");
+define('OGP_LANG_delete', "حذف");
+define('OGP_LANG_sure_to_delete', "هل تريد بالتأكيد حذف هذه الأخبار؟");
+define('OGP_LANG_go_back', "إرجع");
+define('OGP_LANG_new_added_success', "تم نشر الأخبار بنجاح!");
+define('OGP_LANG_add_another', "إضافة عنصر آخر");
+define('OGP_LANG_or_message', "أو");
+define('OGP_LANG_please_select', "الرجاء الاختيار");
 define('OGP_LANG_submit', "Submit");
-define('OGP_LANG_edit_listing', "Edit the news");
+define('OGP_LANG_edit_listing', "تعديل الأخبار");
 define('OGP_LANG_modifications_saved', "The new values have been saved successfully!");
 define('OGP_LANG_modify_images', "Modify the new article images");
 define('OGP_LANG_upload_more_images', "Upload more images");
