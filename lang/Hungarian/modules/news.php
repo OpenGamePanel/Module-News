@@ -24,7 +24,7 @@
 
 define('OGP_LANG_manage_listings', "A híreid kezelése");
 define('OGP_LANG_add_new_listing', "Hírek megjelentetése");
-define('OGP_LANG_your_current_listings', "Az aktuális híreid");
+define('OGP_LANG_your_current_listings', "A jelenlegi híreid");
 define('OGP_LANG_edit', "Szerkesztés");
 define('OGP_LANG_date', "Dátum");
 define('OGP_LANG_images', "Képek");
