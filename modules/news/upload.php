@@ -20,7 +20,8 @@ if(isset($_FILES["myfile"]))
 		if(!is_array($_FILES["myfile"]["name"])) 
 		{
 			$fileName = $_FILES["myfile"]["name"];
-			$ext = end(explode('.', $fileName));
+			$exp = explode('.', $fileName);
+			$ext = end($exp);
 
 			if (in_array($ext, $allowedExtensions)) {
 				move_uploaded_file($_FILES["myfile"]["tmp_name"], $output_dir.$fileName);
@@ -38,7 +39,8 @@ if(isset($_FILES["myfile"]))
 			for($i=0; $i < $fileCount; $i++) {
 
 				$fileName = $_FILES["myfile"]["name"][$i];
-				$ext = end(explode('.', $fileName));
+				$exp = explode('.', $fileName);
+				$ext = end($exp);
 
 				if (in_array($ext, $allowedExtensions)) {
 					move_uploaded_file($_FILES["myfile"]["tmp_name"][$i], $output_dir.$fileName);
