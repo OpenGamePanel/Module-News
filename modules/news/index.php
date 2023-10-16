@@ -1,7 +1,6 @@
 <?php
 function exec_ogp_module() {
 	define("IN_SCRIPT","1");
-	error_reporting(0);
 
 	require("modules/news/include/SiteManager.class.php");
 	$website = new SiteManager();

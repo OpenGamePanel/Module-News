@@ -88,11 +88,11 @@ define('OGP_LANG_it', "Olasz");
 define('OGP_LANG_pl', "Lengyel");
 define('OGP_LANG_pt_PT', "Portugál");
 define('OGP_LANG_ru', "Orosz");
-define('OGP_LANG_tinymce_skin', "Tiny MCE skin");
-define('OGP_LANG_tinymce_skin_custom', "You absolutely need to upload your own custom skin in <b>modules/news/js/tinymce/skins/custom/</b> folder to be able to use this skin. If you select it without doing so, you'll encounter problems. Create your own custom skin here <a href='http://skin.tinymce.com/' target='_blank'>http://skin.tinymce.com/</a>.");
+define('OGP_LANG_tinymce_skin', "Tiny MCE kinézet");
+define('OGP_LANG_tinymce_skin_custom', "Feltétlenül fel kell töltened saját egyéni kinézeted a <b>modules/news/js/tinymce/skins/custom/</b> mappába, hogy használni tud ezt a kinézetet. Ha kiválasztod anélkül, hogy feltöltenéd a saját kinézeteted problémákba fogsz ütközni. Itt készítheted el saját egyedi kinézeted <a href='http://skin.tinymce.com/' target='_blank'>http://skin.tinymce.com/</a>.");
 define('OGP_LANG_safe_HTML', "HTML tisztító");
 define('OGP_LANG_safe_HTML_en', "HTML tisztító engedélyezve");
 define('OGP_LANG_safe_HTML_dis', "HTML tisztító letiltva");
-define('OGP_LANG_safe_HTML_en_info', "The HTML content of the article in the detailed view will be purified. This will lead in the removal of some HTML tags like iframes. Edit the file <b>modules/news/config.php</b> to change the setting 'safe_HTML' from value '1' (enabled) to value '0' (disabled) to disable this bahavior and allow usage of full HTML without restriction.");
-define('OGP_LANG_safe_HTML_dis_info', "The HTML content of the article in the detailed view will not be purified. Edit the file <b>modules/news/config.php</b> to change the setting 'safe_HTML' from value '0' (disabled) to value '1' (enabled) to enable safe HTML tags usage only.");
+define('OGP_LANG_safe_HTML_en_info', "A cikk HTML-tartalma a részletes nézetben megtisztítva fog megjelenni. Ez egyes HTML-címkék, például az iframe-ek eltávolításához vezet. Szerkeszd az <b>module / news / config.php</b> fájlt, hogy a „safe_HTML” beállítást „1” (engedélyezve) értékről „0” (letiltva) értékre módosítsd, így letiltva ezt a megjelenítést, hogy korlátozás nélkül engedélyezd a teljes HTML használatát.");
+define('OGP_LANG_safe_HTML_dis_info', "A cikk HTML-tartalma a részletes nézetben nem tisztítva fog megjelenni. Szerkeszd a <b>module / news / config.php</b> fájlt a „safe_HTML” beállítás „0” (letiltva) értékről „1” (engedélyezett) értékre történő megváltoztatásához, hogy csak a biztonságos HTML-címkék legyenek használhatóak.");
 ?>
