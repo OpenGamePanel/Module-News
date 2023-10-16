@@ -48,6 +48,11 @@ class HTMLPurifier_Lexer
      */
     public $tracksLineNumbers = false;
 
+    /**
+     * @type HTMLPurifier_EntityParser
+     */
+    private $_entity_parser;
+
     // -- STATIC ----------------------------------------------------------
 
     /**
@@ -96,7 +101,7 @@ class HTMLPurifier_Lexer
                         break;
                     }
 
-                    if (class_exists('DOMDocument') &&
+                    if (class_exists('DOMDocument', false) &&
                         method_exists('DOMDocument', 'loadHTML') &&
                         !extension_loaded('domxml')
                     ) {
@@ -306,8 +311,8 @@ class HTMLPurifier_Lexer
     {
         // normalize newlines to \n
         if ($config->get('Core.NormalizeNewlines')) {
-            $html = str_replace("\r\n", "\n", $html);
-            $html = str_replace("\r", "\n", $html);
+            $html = str_replace("\r\n", "\n", (string)$html);
+            $html = str_replace("\r", "\n", (string)$html);
         }
 
         if ($config->get('HTML.Trusted')) {
@@ -348,9 +353,10 @@ class HTMLPurifier_Lexer
             $html = preg_replace('#<\?.+?\?>#s', '', $html);
         }
 
+        $hidden_elements = $config->get('Core.HiddenElements');
         if ($config->get('Core.AggressivelyRemoveScript') &&
             !($config->get('HTML.Trusted') || !$config->get('Core.RemoveScriptContents')
-            || empty($config->get('Core.HiddenElements')["script"]))) {
+            || empty($hidden_elements["script"]))) {
             $html = preg_replace('#<script[^>]*>.*?</script>#i', '', $html);
         }
 

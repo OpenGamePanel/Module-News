@@ -55,7 +55,12 @@ class SiteManager
 			die("The configuration file doesn't exist!");
 		}
 		
-		date_default_timezone_set($this->settings["website"]["time_zone"]);
+		$tz = "UTC";		
+		if(array_key_exists("time_zone", $this->settings["website"]) && !empty($this->settings["website"]["time_zone"])){
+			$tz = $this->settings["website"]["time_zone"];
+		}
+		
+		date_default_timezone_set($tz);
 		
 	}
 	
